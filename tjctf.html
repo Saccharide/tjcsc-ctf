@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TJ CSC Web Practice</title>
+        <!-- flag{look_in_the_comments} -->
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            $("#flag").text(eval(function(p, a, c, k, e, d) {
+    e = function(c) {
+        return c
+    };
+    if (!''.replace(/^/, String)) {
+        while (c--) {
+            d[c] = k[c] || c
+        }
+        k = [function(e) {
+            return d[e]
+        }];
+        e = function() {
+            return '\\w+'
+        };
+        c = 1
+    };
+    while (c--) {
+        if (k[c]) {
+            p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])
+        }
+    }
+    console.log(p);
+    return p
+}('"0{1}"', 2, 2, 'flag|inspect_the_element'.split('|'), 0, {})));
+            /* * * * * WATS GOIN ON HERE??? * * * * */
+            $("#cf").click(function(e) {
+                var user_value = $("#if").val();
+                $.get("ajax_flag.txt", function(data) {
+                    if (data == user_value + "\n") {
+                        alert("correct flag :)");
+                    }
+                    else {
+                        alert("wrong flag :(");
+                    }
+                });
+            });
+            $(".box").each(function(k, v) {
+                $(this).attr("id", "box-" + k);
+                $(this).attr("key", String.fromCharCode(97 + (25-k)));
+            });
+            $(".box").click(function(e) {
+                $(this).toggleClass("green");
+                var meme = "";
+                var key = "";
+                $(".box.green").each(function() {
+                    meme += $(this).attr("id");
+                    key += $(this).attr("key");
+                });
+                if (meme == "box-0box-4box-6box-7box-8box-11box-12box-13box-16box-17box-18box-20box-24") {
+                    $("#box-flag").text("flag{" + key + "}");
+                }
+            });
+        });
+        </script>
+        <style>
+        #flag {
+            font-size: 32px;
+            font-family: monospace;
+        }
+        .blur {
+            -webkit-filter: blur(10px);
+            -moz-filter: blur(10px);
+            -o-filter: blur(10px);
+            -ms-filter: blur(10px);
+            filter: blur(10px);
+
+            user-select: none;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+        }
+        .box {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+            cursor: pointer;
+        }
+        .green {
+            background-color: green;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Find all the flags you can! There are 11.</h1>
+        <hr />
+        <div class="dank">
+            <p>I'm pretty sure there's a flag below, but its too blurry!</p>
+            <div class="memes blur">
+                <div id="flag"><!-- nope! --></div>
+            </div>
+            <br />
+        </div>
+        <hr />
+        <p>This is not an actual flag checker, it's a problem. Write down your flags somewhere and we'll check them at the end.</p>
+        <input type="text" placeholder="Flag" id="if" /> <button id="cf">Check Flag</button>
+        <hr />
+        <div id="box-flag"></div>
+        <div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <hr />
+        <a href="stuff.php">More Stuff</a><lol style="margin-left: 10px;" href="loltag.html"></lol><a href="javascript:;">Even More Stuff</a>
+    </body>
+</html>
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- troll{no_ctrl_f_for_u} -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->
+<!-- end of document -->

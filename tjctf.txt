@@ -1,0 +1,11 @@
+flag{look_in_the_comments}
+flag{so_much_easy_monies}
+flag{inspect_the_element}
+flag{p41nt_5k1LLz}
+flag{ajax_is_cool}
+troll{no_ctrl_f_for_u}
+flag{zvtsronmjihfb}
+flag{robots_are_invading}
+flag{yum_yum_cookies}
+flag.notarealfile
+
