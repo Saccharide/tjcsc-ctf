@@ -7,5 +7,5 @@ troll{no_ctrl_f_for_u}
 flag{zvtsronmjihfb}
 flag{robots_are_invading}
 flag{yum_yum_cookies}
-flag.notarealfile
-
+flag{notarealfile}
+flag{google_news}
